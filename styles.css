@@ -79,7 +79,7 @@ main h1{
 .shop a:hover{
     font-size: 1.1rem;
 }
-#about{
+#about>#center{
     display: grid;
     gap: 1rem;
     padding: 1rem;
@@ -177,7 +177,7 @@ footer>a:hover{
     header>h1{
         font-size: 3rem;
     }
-    #about{
+    #about>#center{
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 0.5fr 0.5fr;
         max-width: 70rem;
@@ -204,6 +204,9 @@ footer>a:hover{
     }
     footer>img{
         max-width: 10rem;
+    }
+    #center{
+        margin: auto;
     }
     
   
